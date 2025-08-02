@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  padding: 1vw;
+  background: var(--color-bg);
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 10;
+}
+
+.logo {
+  width: 30vw;
+}
+
+.logoM {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: var(--color-primary);
+}
+.searchBar {
+  width: 20vw;
+  background: var(--main-bg);
+  height: 100%;
+  padding: 0.5vw;
+  border-radius: 2vw;
+  padding-right: 0.5vw;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 2vw;
+  justify-content: center;
+}
+.tools {
+  width: 15vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2vw;
+}

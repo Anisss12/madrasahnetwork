@@ -1,0 +1,30 @@
+.storyCard {
+  height: 13vw;
+  overflow: hidden;
+  width: 10vw;
+  border-radius: 1vw;
+  position: relative;
+}
+
+.image {
+  object-fit: contain;
+}
+
+.profile {
+  height: 3vw;
+  width: 3vw;
+  border-radius: 50%;
+  border: 1px solid green;
+  position: absolute;
+  top: 0.5vw;
+  left: 0.5vw;
+  overflow: hidden;
+}
+
+.storyTitle {
+  position: absolute;
+  bottom: 0.5vw;
+  left: 0.5vw;
+  z-index: 1;
+  color: white;
+}

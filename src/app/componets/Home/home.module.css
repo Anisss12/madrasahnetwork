@@ -1,0 +1,53 @@
+.conatainer {
+  position: relative;
+}
+
+.content {
+  height: 100vh;
+  width: 82vw;
+  padding-top: 5vw;
+  padding-left: 15vw;
+  overflow-y: auto;
+  scrollbar-width: none; /* Firefox */
+}
+.storyBar {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  overflow-x: auto; /* scroll works same, auto is safer */
+  padding: 1vw;
+  scrollbar-width: none; /* Firefox */
+}
+
+.storyBar::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+/* child items */
+.storyBar > * {
+  flex: 0 0 auto; /* prevents shrinking & keeps natural width */
+  width: 50px; /* adjust as per design */
+  height: 130px; /* example fixed size */
+  border-radius: 12px;
+  background: #ccc;
+}
+.postBox {
+  padding: 1vw;
+}
+.postSection {
+  padding: 1vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.rightBar {
+  position: fixed;
+  right: 0;
+  top: 5vw;
+  width: 18vw;
+  height: calc(100vh - 5vw);
+  background: var(--color-bg);
+  padding: 1vw;
+}

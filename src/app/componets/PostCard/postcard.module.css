@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  background: var(--color-bg);
+  padding: 1vw;
+  border-radius: 1vw;
+}
+.topContent {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 2vw;
+  padding: 1vw;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  align-items: center;
+  width: 90%;
+}
+
+.follow {
+  background: var(--color-primary);
+  color: white;
+  padding: 0.5vw 2vw;
+  font-weight: bold;
+  border-radius: 1vw;
+}
+
+.postContent p {
+  padding: 1vw 0vw;
+}
+
+.bottomContent {
+  width: 100%;
+  border-top: 0.5px solid gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5vw 1vw;
+}
+
+.badge {
+  color: var(--color-bg);
+  background-color: var(--color-primary);
+}

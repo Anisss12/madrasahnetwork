@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  padding: 1vw;
+  background-color: var(--color-bg);
+  align-items: center;
+  gap: 1vw;
+  border-radius: 1vw;
+}
+
+.inputBox {
+  background: var(--main-bg);
+  width: 90%;
+  height: 3vw;
+  border-radius: 1vw;
+}
+
+.inputBox input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 2vw;
+}
+
+.postItem {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  padding: 0.5vw;
+}
